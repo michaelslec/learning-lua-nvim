@@ -3,6 +3,7 @@ fun! YourFirstPlugin()
   lua require("your-first-plugin").printWindowSize()
 endfun
 
+let g:your_first_plugin_value = 42
 augroup YourFirstPlugin
   autocmd!
 augroup END
